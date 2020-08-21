@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>GADS2020 Learners</h1>
+    <h1>Welcome to GADS2020 Learners Workshop</h1>
     <hr/>
     <div class="container">
 
@@ -13,7 +13,7 @@
             <img src="{{itemImageUrl}}">
             <h4>See other learners</h4>
             <ul>
-                <li *ngFor="let learner of learners">{{learner.firstname + " " +learner.lastname}}</li>
+                <li *ngFor="let learner of learners">{{learner.name}}</li>
             </ul>
         </div>
 
@@ -36,4 +36,5 @@
         </div>
     </div>
 
+    <app-vote-taker></app-vote-taker>
 </div>

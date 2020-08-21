@@ -1,6 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 
-import { LEARNERS } from './learners';
+import { LEARNERS } from './learner';
 
 @Component({
   selector: 'app-root',
